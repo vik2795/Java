@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feladat6.css">
+    <link rel="stylesheet" href="feladat6.js">
+    <title>feladat6</title>
+</head>
+<body>
+    <body>
+        <img src="kekszi.png" alt="">
+        <header>
+            
+            <h1>CodeWars Felhasználói Információk</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" id="overall-link">Összesített Pontok és Rank</a></li>
+                    <li><a href="#" id="languages-link">Pontok Nyelvek Szerint</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <section class="input-section">
+                <label for="username">Felhasználónév:</label>
+                <input type="text" id="username" placeholder="Írja be a felhasználónevet">
+                <button id="search-btn">Keresés</button>
+                
+            </section>
+    
+            <section id="results" class="hidden">
+                <h2>Felhasználói adatok:</h2>
+                <div id="user-info">
+                    <p><strong>Valódi név:</strong> <span id="real-name"></span></p>
+                    <p><strong>Felhasználónév:</strong> <span id="user-name"></span></p>
+                    <div id="overall-results" class="hidden">
+                        <h3>Összesített adatok</h3>
+                        <p><strong>Összes pont:</strong> <span id="total-points"></span></p>
+                        <p><strong>Globális rank:</strong> <span id="global-rank"></span></p>
+                    </div>
+                    <div id="language-results" class="hidden">
+                        <h3>Nyelvek szerinti pontok és rankok</h3>
+                        <div id="language-data"></div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="error" class="hidden">
+                <h2>404 - Felhasználó nem található!</h2>
+                <p>Nem találtunk ilyen nevű felhasználót a CodeWarsban. Kérjük, próbálja meg újra!</p>
+                
+            </section>
+        </main>
+    
+   
+</body>
+</html>

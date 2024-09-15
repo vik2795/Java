@@ -1,0 +1,74 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5DEB3; /* Bézs háttér */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 80%;
+}
+
+.bal {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-content: flex-start;
+}
+
+.kek{
+    background-color: #00FFFF;
+    height: 10%;
+}
+
+.elemek{
+    display: flex;
+    flex-grow: 1;
+}
+
+.narancs {
+    background-color: #FFA500; 
+    width: 10%;
+}
+
+.krem {
+    background-color: #F5DEB3; 
+    width: 5%;
+}
+
+.piros {
+    background-color: #FF0000;
+    flex-grow: 1;
+}
+
+.lila {
+    background-color: #800080;
+    width: 10%;
+}
+
+.kek2 {
+    background-color: #0000FF; 
+    height: 10%;
+}
+
+.jobb {
+    flex-grow: 1;
+    position: relative;
+}
+
+.fekete {
+    background-color: #000000; 
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
