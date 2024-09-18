@@ -1,3 +1,12 @@
-let vnev = document.getElementById('vnev');
-let utonev = document.getElementById('utonev');
-let szam = document.getElementById('szam');
+function validateForm() {
+    let x = document.forms["vnev"]["utnev"].value;
+    if (x == "") {
+      alert("A mező nem lehet üres");
+      return false;
+    }
+  }
+  var vnev=document.getElementById("vnev").value;  
+  var utnev=document.getElementById("utnev").value;  
+  var szam=document.getElementById("szam").value;  
+  
+ 

@@ -7,19 +7,26 @@
     <title>Form</title>
 </head>
 <body>
-    <div class="vnev">Vezetéknév
-        <input type="text">
-    </div>
-    <div class="utononev">Utóneve
-        <input type="text">
-    </div>
-    <div class="szam">Kedvenc száma
-        <input type="number">
-    </div>
-    <div>Van-e jogosítványa?
-    <input type='radio' name='van'> Van
-    <input type='radio' name='nincs'> Nincs
-</div>
-<button id="gomb">Mentés</button>
+    <form action="urlap"></form>
+    <label for="vnev">Vezetéknév:</label><br>
+    <input type="text" id="vnev" name="vnev"><br>
+    <label for="kernev">Utónév:</label><br>
+    <input type="text" id="utnev" name="utnev">
+    
+  <br>  <label for="fname">Kedvenc száma:</label><br>
+  <input type="number" id="szam" name="szam"><br>
+    
+    <p>Van-e jogosítványa?</p>
+      <input type="radio" id="html" name="jogositvany" value="van">
+    <label for="html">Van</label><br>
+    <input type="radio" id="css" name="jogositvany" value="nincs">
+    <label for="css">Nincs</label><br>
+    
+       
+
+<input type="button" value="Mentés" />  
+</form> 
+
 </body>
 </html>
+
